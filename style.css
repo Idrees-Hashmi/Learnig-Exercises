@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #111111;
+}
+
+body {
+  position: relative;
+  color: grey;
+}
+.product-container {
+  border: 5px solid black;
+  width: 825px;
+  margin: 0px auto;
+}
+
+.title {
+  padding: 8px 0px 8px 0px;
+  color: black;
+  background-color: lightgray;
+  text-align: center;
+  z-index: 1;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+li {
+  list-style: square;
+  list-style-position: inside;
+}
+
+#ship {
+  color: #111111;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  scale: 1;
+}
+
+a:active {
+  color: red;
+  background-color: azure;
+  padding: 8px 0px 8px 0px;
+  transform: scale(1.2);
+}
+
+.product-img:hover {
+  transform: scale(1.1);
+}
+form {
+  margin-top: 15px;
+  display: flexbox;
+  flex-wrap: wrap;
+  /* margin-left: 16px; */
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin-right: 8px;
+  /* border-radius: 10px; */
+}
+
+input:nth-child(1) {
+  margin-left: 12px;
+}
+
+input:hover {
+  border: 2px solid aquamarine;
+}
+
+#header-logo {
+  width: 50px;
+  height: 60px;
+}
+
+#header-logo:hover {
+  transform: scale(1.2);
+  transition-behavior: inherit;
+}
+
+.form-button {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 22px 10px 22px;
+  /* border-radius: 8px; */
+  margin-top: 20px;
+  width: 100%;
+  /* align-self: center;
+  align-items: center;
+  margin: auto; */
+}
+
+.form-button:hover {
+  background-color: aquamarine;
+  color: black;
+  border-color: aquamarine;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.form-button:active {
+  border-color: blueviolet;
+  background-color: blueviolet;
+  color: white;
+}
+
+.container {
+  align-content: center;
+  width: 1040px;
+  height: auto;
+  margin: auto;
+}
+
+#product-tetails {
+  margin-top: 30px;
+}
+.top-header {
+  align-items: center;
+  align-content: center;
+  border: 1px solid black;
+  width: 100%;
+  padding: 20px 32px 20px 32px;
+  background-color: antiquewhite;
+}
+nav {
+  align-self: center;
+  display: inline-block;
+  background-color: antiquewhite;
+
+  border: 1px solid black;
+}
+
+nav a:link {
+  border: 1px solid black;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+#like-btn {
+  padding: 15px 30px 15px 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  border-color: antiquewhite;
+  box-shadow: 3px 3px 2px black;
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
+  cursor: grab;
+}
+
+#like-btn:active {
+  box-shadow: none;
+  cursor: grabbing;
+}
+h2 {
+  margin-top: 50px;
+  padding-top: 30px;
+  font-size: 40px;
+  position: relative;
+}
+.product-container {
+  position: relative;
+}
+.product-container::before {
+  content: "Sale";
+  font-size: 18px;
+  padding: 6px 10px 6px 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: white;
+  background-color: #f54040;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.colors {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 5px;
+}
+
+.swatch1 {
+  width: 20px;
+  height: 20px;
+  background-color: #f54040;
+  transition: ease 0.25s;
+}
+
+.swatch2 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(218, 127, 23);
+  transition: ease 0.25s;
+}
+
+.swatch3 {
+  width: 20px;
+  height: 20px;
+  background-color: #31afe9;
+  transition: ease 0.25s;
+}
+
+.swatch4 {
+  width: 20px;
+  height: 20px;
+  background-color: #40f540;
+  transition: ease 0.25s;
+}
+
+.swatch5 {
+  width: 20px;
+  height: 20px;
+  background-color: #7040f5;
+  transition: ease 0.25s;
+}
+
+.swatch6 {
+  width: 20px;
+  height: 20px;
+  background-color: #100f13;
+  transition: ease 0.25s;
+}
+
+.swatch1:hover,
+.swatch2:hover,
+.swatch3:hover,
+.swatch4:hover,
+.swatch5:hover,
+.swatch6:hover {
+  width: 30px;
+}
+
+.swatch1:active,
+.swatch2:active,
+.swatch3:active,
+.swatch4:active,
+.swatch5:active,
+.swatch6:active {
+  scale: 1.1;
+}
