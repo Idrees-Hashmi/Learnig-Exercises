@@ -49,13 +49,6 @@ a:hover {
   scale: 1;
 }
 
-a:active {
-  color: red;
-  background-color: azure;
-  padding: 8px 0px 8px 0px;
-  transform: scale(1.2);
-}
-
 .product-img:hover {
   transform: scale(1.1);
 }
@@ -82,16 +75,6 @@ input:nth-child(1) {
 
 input:hover {
   border: 2px solid aquamarine;
-}
-
-#header-logo {
-  width: 50px;
-  height: 60px;
-}
-
-#header-logo:hover {
-  transform: scale(1.2);
-  transition-behavior: inherit;
 }
 
 .form-button {
@@ -122,64 +105,10 @@ input:hover {
   color: white;
 }
 
-.container {
-  align-content: center;
-  width: 1040px;
-  height: auto;
-  margin: auto;
-}
-
 #product-tetails {
   margin-top: 30px;
 }
-.top-header {
-  align-items: center;
-  align-content: center;
-  border: 1px solid black;
-  width: 100%;
-  padding: 20px 32px 20px 32px;
-  background-color: antiquewhite;
-}
-nav {
-  align-self: center;
-  display: inline-block;
-  background-color: antiquewhite;
 
-  border: 1px solid black;
-}
-
-nav a:link {
-  border: 1px solid black;
-  display: inline-block;
-  color: black;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-weight: 600;
-  margin-right: 30px;
-  margin-top: 10px;
-}
-
-#like-btn {
-  padding: 15px 30px 15px 30px;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  background-color: antiquewhite;
-  border-radius: 8px;
-  border-color: antiquewhite;
-  box-shadow: 3px 3px 2px black;
-  position: absolute;
-  /* top: 50px;
-  left: 50px; */
-  bottom: 50px;
-  right: 50px;
-  cursor: grab;
-}
-
-#like-btn:active {
-  box-shadow: none;
-  cursor: grabbing;
-}
 h2 {
   margin-top: 50px;
   padding-top: 30px;
